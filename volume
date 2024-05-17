@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double radius, volume;
+
+    // Input the radius of the sphere
+    cout << "Enter the radius of the sphere: ";
+    cin >> radius;
+
+    // Calculate the volume of the sphere
+    volume = (4.0 / 3.0) * M_PI * pow(radius, 3);
+
+    // Output the result
+    cout << "The volume of the sphere is: " << volume << endl;
+
+    return 0;
+}
